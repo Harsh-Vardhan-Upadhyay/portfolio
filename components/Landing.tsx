@@ -31,7 +31,7 @@ export default function Landing() {
               <span className="inline-block transition-all hover:-translate-y-2 hover:duration-150 duration-200 hover:scale-110 ease-in-out  hover:text-white text-primary ">
                 {" "}
               </span>
-              {"Zaid".split("").map((letter) => (
+              {"Harsh".split("").map((letter) => (
                 <span
                   key={letter}
                   className="inline-block transition-all duration-200 hover:scale-110 ease-in-out hover:text-white text-primary hover:-translate-y-2 hover:duration-150"
@@ -50,7 +50,7 @@ export default function Landing() {
                 </span>
               ))}
               <span> </span>
-              {"web".split("").map((letter) => (
+              {"UI/UX".split("").map((letter) => (
                 <span
                   key={letter}
                   className="hover:text-primary inline-block transition-all duration-200 hover:scale-110 hover:-translate-y-2 hover:duration-150"
@@ -59,7 +59,7 @@ export default function Landing() {
                 </span>
               ))}
               <span> </span>
-              {"developer".split("").map((letter) => (
+              {"designer".split("").map((letter) => (
                 <span
                   key={letter}
                   className="hover:text-primary inline-block transition-all duration-200 hover:scale-110 hover:-translate-y-2 hover:duration-150"
@@ -84,7 +84,7 @@ export default function Landing() {
       <Image
         className="absolute z-0 opacity-50 select-none"
         src={"/wave.png"}
-        alt="Zaid"
+        alt="Harsh"
         width={1800}
         height={100}
       />

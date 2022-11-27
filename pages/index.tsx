@@ -54,7 +54,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Created with ❤️ by Zaid
+            Created with ❤️ by Harsh
           </a>
         </footer>
       </div>

@@ -2,23 +2,11 @@ import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
 import LogoCard from "./LogoCard";
 const texts: string[] = [
-  "AWS",
-  "Android",
-  "Arduino",
   "CPP",
-  "Express",
-  "Firebase",
+  "Figma",
+  "Photoshop",
   "Git",
-  "GraphQL",
-  "Heroku",
-  "JWT",
-  "Mongo",
-  "NextJS",
-  "NodeJS",
-  "Python",
-  "React",
-  "Tailwind",
-  "TypeScript",
+  "Python"
 ];
 export default function Skills() {
   return (
@@ -33,11 +21,12 @@ export default function Skills() {
           </div>
           <hr className="mt-8 mb-8 w-[100px] h-px bg-primary border-2 border-primary dark:bg-primary" />
         </Fade>
-
+        <div className="flex flex-col item-center justify-center min-w-screen">
         <div className="grid grid-cols-9 gap-x-[90px] gap-y-[20px] min-w-screen mx-20 place-content-center place-items-center mt-10">
           {texts.map((skill, i) => {
             return <LogoCard key={skill} name={skill} sno={i} />;
           })}
+        </div>
         </div>
       </div>
     </div>

@@ -167,8 +167,8 @@ export default function About() {
           <div className="w-[700px] select-none">
             <h1 className="text-left text-xl text-white">
               <p>
-                I am a Back-End Developer studying in SRMIST. I am in my 2nd
-                Year and have an year of experience with Web 2.0.
+                I am a UI/UX Designer studying in SRMIST. I am in my 2nd
+                Year.
               </p>{" "}
               <br />
               <p>
@@ -218,7 +218,7 @@ export default function About() {
                       className="select-none cursor-default"
                       width={40}
                       height={40}
-                      alt={"Zaid"}
+                      alt={"Harsh"}
                       src={`/svg/${
                         item.text.charAt(0).toLowerCase() + item.text.slice(1)
                       }.svg`}

@@ -60,7 +60,7 @@ export default function NavBar() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/dev-zaid"
+              href="https://github.com/Harsh-Vardhan-Upadhyay"
             >
               <svg
                 className="fill-white hover:-translate-y-0.5 text-md md:text-xl cursor-pointer duration-200 hover:fill-primary"
@@ -77,7 +77,7 @@ export default function NavBar() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://linkedin.com/in/dev-zaid"
+              href="https://www.linkedin.com/in/harsh-vardhan-u-484464205/"
             >
               <svg
                 className="fill-white hover:-translate-y-0.5 text-md md:text-xl cursor-pointer duration-200 hover:fill-primary"
@@ -94,7 +94,7 @@ export default function NavBar() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1EQjEEsac-A0r7Dy1ObBOguf-vcFeZmWI/view?usp=drivesdk"
+              href="#"
             >
               <svg
                 className="fill-white hover:-translate-y-0.5 text-md md:text-xl cursor-pointer duration-200 hover:fill-primary"
